@@ -40,19 +40,17 @@ Edit this section GoAppDSimpleTest.go:
 
 ### Build
 
-run
-
 ```
 docker build -t appd/simple-golang-example:0.1 .
 ```
 
 ### Run
 
-run
-
 ```
 docker run --rm -v `pwd`/logs:/tmp/appd --name gotest1 appd/simple-golang-example:0.1
 ```
+
+From this directory.
 
 The logs will be written into the `logs` directory so you can monitor and troubleshoot from the host
 
