@@ -18,11 +18,10 @@ Edit this section GoAppDSimpleTest.go:
 ```go
     // Controller
     cfg.Controller.Host = "192.168.1.150"
-    //cfg.Controller.Host = "localhost"
     cfg.Controller.Port = 8090
     cfg.Controller.UseSSL = false
     cfg.Controller.Account = "customer1"
-    cfg.Controller.AccessKey = "4a2b69dd-efba-4a7f-bd60-64d31138179c"
+    cfg.Controller.AccessKey = "4a2b69dd-31138179c"
 ```
 
 ## Run
